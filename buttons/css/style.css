@@ -130,4 +130,25 @@ input:focus ~ .label-box label, input:valid ~ .label-box label {
   transform: translateY(-20px);
 }
 
+.input8 {
+  padding: 10px;
+  border-bottom: 2px solid var(--black);
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: var(--dark-blue);
+  transition: border-color 0.3s ease-in-out;
+  background-color: var(--color-gradient1);
+  outline: none;
+}
+.input8:hover {
+  border-bottom: 2px solid var(--color-orange);
+}
+.input8:active {
+  border-bottom: 2px solid var(--color-orange);
+}
+.input8:focus {
+  border-bottom: 2px solid var(--color-orange);
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+.input8{
+    padding: 10px;
+    border-bottom: 2px solid $black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: $dark-blue;
+    transition: border-color 0.3s ease-in-out;
+    background-color: $white;
+    outline: none;
+    &:hover{
+        border-bottom: 2px solid $orange;
+    }
+    &:active{
+        border-bottom: 2px solid $orange;
+    }
+    &:focus{
+        border-bottom: 2px solid $orange;
+    }
+}

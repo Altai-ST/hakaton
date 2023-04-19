@@ -151,4 +151,25 @@ input:focus ~ .label-box label, input:valid ~ .label-box label {
   border-bottom: 2px solid var(--color-orange);
 }
 
+.input9 {
+  padding: 10px;
+  border-bottom: 2px solid var(--black);
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: var(--dark-blue);
+  transition: border-color 0.3s ease-in-out;
+  background-color: var(--color-gradient1);
+  outline: none;
+}
+.input9:hover {
+  border-top: 2px solid var(--color-orange);
+}
+.input9:active {
+  border-top: 2px solid var(--color-orange);
+}
+.input9:focus {
+  border-top: 2px solid var(--color-orange);
+}
+
 /*# sourceMappingURL=style.css.map */

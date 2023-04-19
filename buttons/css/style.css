@@ -1,19 +1,11 @@
-:root{
-  --primary-color: #2f2f2f;
-  --color-gradient1: #fff;
-  --color-gradient2:#506f86;
-  --color-orange:#fbb040;
-}
-
-
 .btn1 {
   width: 100px;
   padding: 6px 20px;
   font-size: 16px;
-  color: var(--primary-color);
+  color: #2f3c4f;
   border-radius: 12px;
   border: none;
-  background: linear-gradient(to right, var(--color-gradient1), var(--color-gradient2));
+  background: linear-gradient(to right, #fff, #506f86);
   box-shadow: 4px 4px 5px 0px rgba(34, 60, 80, 0.7);
 }
 
@@ -21,10 +13,23 @@
   width: 50px;
   padding: 3px 10px;
   font-size: 10px;
-  color: var(--color-orange);
+  color: #fbb040;
   border-radius: 6px;
   border: 1px solid #2f3c4f;
-  background: linear-gradient(to left, var(--color-gradient2), var(--color-orange));
+  background: linear-gradient(to left, #506f86, #fbb040);
+}
+
+.input3 {
+  padding: 10px;
+  border: 2px solid #fbb040;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: #2f3c4f;
+  transition: border-color 0.3s ease-in-out;
+}
+.input3:hover {
+  border: 2px solid #000;
 }
 
 /*# sourceMappingURL=style.css.map */

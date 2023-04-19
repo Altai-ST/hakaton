@@ -1,0 +1,12 @@
+.input3{
+    padding: 10px;
+    border: 2px solid $orange;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: $dark-blue;
+    transition: border-color 0.3s ease-in-out;
+    &:hover{
+        border: 2px solid $black;
+    }
+}

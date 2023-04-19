@@ -1,0 +1,4 @@
+{
+    "name": "btn2",
+    "view": "<button class='btn2'>Click</button>"
+}

@@ -1,0 +1,4 @@
+{
+    "name": "input5",
+    "view": "<input class='input5' placeholder='write...' type='email'/>"
+}

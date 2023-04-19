@@ -1,0 +1,4 @@
+{
+    "name": "input7",
+    "view": "<input type='text' required><div class='label-box'><label>write...</label></div>"
+}

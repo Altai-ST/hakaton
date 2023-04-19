@@ -172,4 +172,35 @@ input:focus ~ .label-box label, input:valid ~ .label-box label {
   border-top: 2px solid var(--color-orange);
 }
 
+.input10 {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  color: var(--dark-blue);
+  transition: border-color 0.4s ease-in-out;
+  background-color: var(--color-gradient1);
+  outline: none;
+  border-bottom: 2px solid var(--color-orange);
+  border-top: 2px solid var(--color-orange);
+}
+.input10:hover {
+  border-left: 2px solid var(--color-orange);
+  border-right: 2px solid var(--color-orange);
+  border-bottom: none;
+  border-top: none;
+}
+.input10:active {
+  border-left: 2px solid var(--color-orange);
+  border-right: 2px solid var(--color-orange);
+  border-bottom: none;
+  border-top: none;
+}
+.input10:focus {
+  border-left: 2px solid var(--color-orange);
+  border-right: 2px solid var(--color-orange);
+  border-bottom: none;
+  border-top: none;
+}
+
 /*# sourceMappingURL=style.css.map */
